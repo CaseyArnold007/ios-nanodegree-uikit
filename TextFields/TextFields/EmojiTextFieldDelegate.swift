@@ -11,7 +11,7 @@ import UIKit
 
 class EmojiTextFieldDelegate : NSObject, UITextFieldDelegate {
     
-    let translations = [String : String]()
+    var translations = [String : String]()
     
     override init() {
         super.init()
